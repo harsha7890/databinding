@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { S5parentComponent } from './s5parent.component';
+import { S5component2Component } from './s5component2.component';
 
-describe('S5parentComponent', () => {
-  let component: S5parentComponent;
-  let fixture: ComponentFixture<S5parentComponent>;
+describe('S5component2Component', () => {
+  let component: S5component2Component;
+  let fixture: ComponentFixture<S5component2Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ S5parentComponent ]
+      declarations: [ S5component2Component ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(S5parentComponent);
+    fixture = TestBed.createComponent(S5component2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
